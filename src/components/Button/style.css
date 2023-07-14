@@ -1,0 +1,83 @@
+.button {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  gap: 16px;
+  height: 38px;
+  justify-content: center;
+  padding: 0px 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.button .primary-2 {
+  font-family: "Montserrat", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button .arrow-right {
+  height: 16px !important;
+  min-width: 16px !important;
+  position: relative !important;
+}
+
+.button.secondary {
+  border: 1px solid;
+  border-color: #c73640;
+}
+
+.button.secondary-hover {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #c73640;
+  box-shadow: 0px 0px 8px #70707029;
+}
+
+.button.tertiary-hover {
+  box-shadow: 0px 0px 8px #70707029;
+}
+
+.button.primary {
+  background-color: #c73640;
+}
+
+.button.primary-hover {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 8px #70707029;
+}
+
+.button.trail-icon-false.secondary {
+  background-color: #ffffff;
+}
+
+.button.secondary .primary-2 {
+  color: #c73640;
+}
+
+.button.secondary-hover .primary-2 {
+  color: #c73640;
+}
+
+.button.primary .primary-2 {
+  color: #ffffff;
+}
+
+.button.tertiary-hover .primary-2 {
+  color: #c73640;
+  text-decoration: underline;
+}
+
+.button.tertiary .primary-2 {
+  color: #c73640;
+  text-decoration: underline;
+}
+
+.button.primary-hover .primary-2 {
+  color: #c73640;
+}

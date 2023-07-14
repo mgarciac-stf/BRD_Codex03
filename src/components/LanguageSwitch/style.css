@@ -1,0 +1,63 @@
+.language-switch {
+  align-items: center;
+  display: flex;
+  gap: 2px;
+  position: relative;
+  width: fit-content;
+}
+
+.language-switch .text-wrapper {
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.language-switch .div {
+  color: #cccccc;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.language-switch .EN-2 {
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.language-switch .RO {
+  color: #000000;
+}
+
+.language-switch .EN {
+  color: #cccccc;
+}
+
+.language-switch .state-RO {
+  color: #cccccc;
+}
+
+.language-switch .state-EN {
+  color: #000000;
+}
